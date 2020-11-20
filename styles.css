@@ -1,9 +1,35 @@
 .landingSpot {
-  height: 94vh;
-  background-image: url(https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+.logo {
+  height: 250px;
+  /* margin-bottom: 50px; */
+  /* margin-top: 100px; */
+}
+
+.logo2 {
+  height: 60px;
+  margin: -17px;
+}
+
+.land {
+margin: auto;
+width: 50%;
+padding: 10px;
+text-align: center;
+}
+
+.contactMe {
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
 }
