@@ -31,10 +31,24 @@ h1 {
   font-size: 2em;
 }
 
-.container {
-  background-color: green;
+.fab {
+  margin-top: 40px;
 }
 
+.container {
+  background-color: #00D09C;
+}
+/* Social */
+.social {
+  text-align: center;
+}
+i {
+  padding: 10px;
+  color: black;
+}
+i:hover {
+  color: #00D09C;
+}
 /* form */
 .contactMe {
   background: #15CFFF;
