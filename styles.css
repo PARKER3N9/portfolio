@@ -1,7 +1,7 @@
-
 body {
-background-color: white;
+  background-color: white;
 }
+
 .landingSpot {
   height: 100vh;
   width: 100%;
@@ -38,17 +38,18 @@ h1 {
   margin-top: 40px;
 }
 
-.container {
+.container {}
 
-}
 /* Social */
 .social {
   text-align: center;
 }
+
 i {
   padding: 10px;
   color: black;
 }
+
 i:hover {
   color: #00D09C;
 }
@@ -57,16 +58,21 @@ i:hover {
 .websiteSec {
   background-color: #00D09C;
 }
+
 .card {
-  margin-top: 10px;
-  margin-bottom: 15px;
   background-color: #15CFFF;
+  margin: 10px auto 15px;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */
 }
+
 /* form */
 .contactMe {
   background: #15CFFF;
   margin: 5px 10px 0px;
-
 }
 
 .col-md-3 {
@@ -113,10 +119,15 @@ i:hover {
 .submit {
   margin-bottom: 20px;
 }
+
 #contactMeForm {
-    background: #15CFFF;
+  background: #15CFFF;
 }
 
 footer {
   background-color: white;
+}
+
+#websiteResume {
+  text-align: center;
 }
