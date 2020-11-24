@@ -1,8 +1,11 @@
+
+body {
+background-color: white;
+}
 .landingSpot {
   height: 100vh;
   width: 100%;
   background-image: url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,8 +13,8 @@
 
 .logo {
   height: 250px;
-  /* margin-bottom: 50px; */
-  /* margin-top: 100px; */
+  margin-bottom: 25px;
+  margin-top: 15px;
 }
 
 .logo2 {
@@ -36,7 +39,7 @@ h1 {
 }
 
 .container {
-  background-color: #00D09C;
+
 }
 /* Social */
 .social {
@@ -49,10 +52,21 @@ i {
 i:hover {
   color: #00D09C;
 }
+
+/* Cards */
+.websiteSec {
+  background-color: #00D09C;
+}
+.card {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: #15CFFF;
+}
 /* form */
 .contactMe {
   background: #15CFFF;
-  margin-top: 50px;
+  margin: 5px 10px 0px;
+
 }
 
 .col-md-3 {
@@ -101,4 +115,8 @@ i:hover {
 }
 #contactMeForm {
     background: #15CFFF;
+}
+
+footer {
+  background-color: white;
 }
